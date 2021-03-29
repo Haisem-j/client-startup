@@ -6,7 +6,7 @@ function SideBar() {
   return (
     <section className="sidebar-container">
       <div className="sidebar-logo">
-        <img className="logo" src="/images/logo1.png" alt="logo"/>
+        <img className="logo" src="/images/navbar/logo1.png" alt="logo"/>
         <span>YUMMY RECIPES</span>
       </div>
       <div className="sidebar-name">Hello, <span>Haisem Jemal</span></div>

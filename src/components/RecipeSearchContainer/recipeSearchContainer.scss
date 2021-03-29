@@ -1,0 +1,22 @@
+.r-search-container{
+    height: 70%;
+    border: black solid .5px;
+
+}
+
+.r-search-title{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+    span{
+        margin-left: 10px;
+        font-size: 1.3rem;
+        color: $sideBarFont;
+    }
+}
+
+.r-filters{
+    // padding: 10px;
+    
+}
