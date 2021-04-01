@@ -32,9 +32,25 @@
 .search-tags-container {
     display: flex;
     .tag-body {
-        padding: 12px;
+        border-radius: 7px;
+        height: 44px;
         background-color: $semiDarkGrey;
         margin-right: 25px;
-        border-radius: 7px;
+        width: 131px;
     }
+}
+.search-tags-body-desc {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-tags-container-overlay {
+    height: 100%;
+}
+.search-tags-container-close {
+    position: relative;
+    top: -51px;
+    left: 120px;
+    cursor: pointer;
 }

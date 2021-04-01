@@ -1,13 +1,119 @@
-.recipe-search-body {
-    margin-top: 20px;
+.r-search-body-container {
+    margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.recipe-search {
+.r-search-body {
     height: 465px;
     width: 370px;
     background-color: white;
     border-radius: 7px;
-    box-shadow: 0px 0px .2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 0px 0.2px 0px rgba(50, 50, 50, 0.75);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.r-search-body-image {
+    height: 255.75px;
+    #pic {
+        width: 100%;
+        border-radius: 7px;
+    }
+}
+
+.r-search-body-image-gradient {
+    border-radius: 7px;
+    height: 95%;
+    position: relative;
+    top: -247px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(to top, rgb(51, 51, 51), transparent);
+}
+
+.r-search-body-image-prep-time {
+    border-radius: 7px;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    img {
+        height: 20px;
+        margin-left: -5px;
+        margin-right: 6px;
+    }
+}
+
+.r-search-body-image-prep-time-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+        color: white;
+        font-size: 0.9rem;
+    }
+
+    span {
+        font-weight: 800;
+        color: $sideBarFont;
+    }
+}
+.r-search-body-details {
+    height: 209.25px;
+}
+
+.r-search-body-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 13px;
+}
+
+.r-search-body-desc {
+    color: $sideBarFont;
+    font-size: 0.85rem;
+    line-height: 22px;
+}
+
+.r-search-body-tags-container {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.r-search-body-tag {
+    border: solid rgb(240, 240, 240) 0.5px;
+    border-radius: 7px;
+    height: 70%;
+    width: 75px;
+    display: flex;
+
+    img {
+        height: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .r-search-body-tag-desc {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: $sideBarFont;
+            font-size: 0.7rem;
+        }
+
+        span {
+            font-weight: 800;
+        }
+    }
 }
