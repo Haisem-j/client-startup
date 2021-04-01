@@ -1,22 +1,40 @@
-.r-search-container{
+.r-search-container {
     height: 70%;
-    border: black solid .5px;
-
 }
 
-.r-search-title{
+.r-search-title {
     margin-top: 40px;
+    margin-bottom: 20px;
     font-weight: 500;
     font-size: 1.5rem;
 
-    span{
+    span {
         margin-left: 10px;
         font-size: 1.3rem;
         color: $sideBarFont;
     }
 }
 
-.r-filters{
-    // padding: 10px;
-    
+.r-filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .form-control {
+        width: 150px;
+    }
+
+    .form-slider {
+        width: 150px;
+        text-align: center;
+    }
+}
+
+.search-tags-container {
+    display: flex;
+    .tag-body {
+        padding: 12px;
+        background-color: $semiDarkGrey;
+        margin-right: 25px;
+        border-radius: 7px;
+    }
 }
