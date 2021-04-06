@@ -1,0 +1,33 @@
+.side-recipes-container{
+    border: solid black 0.5px;
+    width: 20%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.side-recipes-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: solid black 0.5px;
+}
+
+.side-recipes-all{
+    border: solid black 0.5px;
+    height: 90%;
+    padding: 10px;
+}
+
+.side-recipes-recipe{
+    display: flex;
+
+    
+
+    img{
+    }
+}

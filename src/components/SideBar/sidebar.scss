@@ -1,53 +1,56 @@
-.sidebar-container{
+.sidebar-container {
     height: 100vh;
     width: 16%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sidebar-logo{
+.sidebar-logo {
     display: flex;
     align-items: center;
     margin-bottom: 4rem;
     width: 80%;
     margin-top: 1rem;
-    span{
+    span {
         margin-left: 10px;
         font-weight: 700;
     }
+    img {
+        height: 40px;
+        width: auto;
+    }
 }
-.sidebar-name{
+.sidebar-name {
     width: 80%;
     font-size: 1.5rem;
     font-weight: 100;
     margin-bottom: 2rem;
-    
-    span{
+
+    span {
         font-weight: 700;
     }
 }
 
-.sidebar-menu{
+.sidebar-menu {
     width: 80%;
-    color:$sideBarFont;
+    color: $sideBarFont;
 }
 
-.sidebar-menu-title{
-    margin-bottom: .5rem;
+.sidebar-menu-title {
+    margin-bottom: 0.5rem;
 }
-.menu-option{
+.menu-option {
     height: 40px;
     width: 100%;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    .menu-name{
+    .menu-name {
         margin-left: 25px;
     }
-
 }
 
-.logo{
-    height: 40px;
-    width: auto;
+.sidebar-bottom-pic{
+    height: 200px;
+    margin-top: 50px;
 }

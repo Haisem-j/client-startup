@@ -1,16 +1,21 @@
 @import "./variables";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap');
 @import "../components/SideBar/sidebar.scss";
-@import '../components/ContentContainer/contentContainer.scss';
-@import "../components/RecipeSearchContainer/recipeSearchContainer.scss";
-@import "../components/SearchContainer/searchContainer.scss";
-@import "../components/RecipeSearchBody/recipeSearchBody.scss";
+@import '../components/SearchPage/ContentContainer/contentContainer.scss';
+@import "../components/SearchPage/RecipeSearchContainer/recipeSearchContainer.scss";
+@import "../components/SearchPage/SearchContainer/searchContainer.scss";
+@import "../components/SearchPage/RecipeSearchBody/recipeSearchBody.scss";
+@import "../components/FullRecipePage/ContentContainer/recipeContentContainer.scss";
+@import "../components/FullRecipePage/MainRecipe/mainRecipe.scss";
+@import "../components/FullRecipePage/RecipeDetails/recipeDetails.scss";
+@import "../components/FullRecipePage/SideRecipes/sideRecipes.scss";
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend', sans-serif;
 }
 
 .App{

@@ -2,11 +2,12 @@ import MenuBook from "@material-ui/icons/MenuBook";
 import MyRecipe from "@material-ui/icons/Restaurant";
 import Logout from "@material-ui/icons/ExitToApp";
 import Account from '@material-ui/icons/AccountCircle';
+
 function SideBar() {
   return (
     <section className="sidebar-container">
       <div className="sidebar-logo">
-        <img className="logo" src="/images/navbar/logo1.png" alt="logo"/>
+        <img src="/images/navbar/logo1.png" alt="logo"/>
         <span>YUMMY RECIPES</span>
       </div>
       <div className="sidebar-name">Hello, <span>Haisem Jemal</span></div>
@@ -31,6 +32,7 @@ function SideBar() {
           </div>
         </div>
       </div>
+      <img className="sidebar-bottom-pic" src="/images/navbar/sidebar-pic.png" alt="sidebar pic" />
     </section>
   );
 }

@@ -1,13 +1,21 @@
-import './sass/main.scss'
-import SideBar from './components/SideBar'
-import ContentContainer from './components/ContentContainer'
+import "./sass/main.scss";
+import SideBar from "./components/SideBar/index.jsx";
+import ContentContainerSearch from './components/SearchPage/ContentContainer'
+import ContentContainer from "./components/FullRecipePage/ContentContainer";
 
+import { Switch, Route, Redirect } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <SideBar />
-      <ContentContainer />
+      <Switch>
+        <Route exact path="/search" component={ContentContainerSearch} />
+        <Route exact path="/recipe" component={ContentContainer} />
+        <Route exact path="/">
+          <Redirect to="/search" />
+        </Route>
+      </Switch>
     </div>
   );
 }
