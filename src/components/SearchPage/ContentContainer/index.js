@@ -1,13 +1,28 @@
-import SearchContainer from '../SearchContainer/index.jsx'
-import RecipeSearchContainer from '../RecipeSearchContainer/index'
+import SearchContainer from "../SearchContainer/index.jsx";
+import RecipeSearchContainer from "../RecipeSearchContainer/index";
 
-function ContentContainer() {
-  return (
-    <div className="content-container">
-      <SearchContainer />
-      <RecipeSearchContainer />
-    </div>
-  );
+import { connect } from "react-redux";
+
+function ContentContainer(props) {
+  if (!props.isCollapsed) {
+    return (
+      <div className="content-container">
+        <SearchContainer />
+        <RecipeSearchContainer />
+      </div>
+    );
+  }else{
+    return (
+      <div className="content-container" style={{width: "96%"}}>
+        <SearchContainer />
+        <RecipeSearchContainer />
+      </div>
+    );
+  }
 }
 
-export default ContentContainer;
+const mapStateToProps = (state) => {
+  return state;
+};
+
+export default connect(mapStateToProps, null)(ContentContainer);

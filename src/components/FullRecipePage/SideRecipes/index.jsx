@@ -9,7 +9,7 @@ function SideRecipes() {
             <div className="side-recipes-recipe">
               <div className="side-recipes-recipe-image">
                 <img src="/images/recipeImages/t_recipe.png" alt="recipe"/>
-                <div className="side-recipes-recipe-gradient"></div>
+                {/* <div className="side-recipes-recipe-gradient"></div> */}
               </div>
               <div className="side-recipes-recipe-details">
                 <div className="side-recipes-recipe-details-titl">Whole Wheat Burrito</div>
