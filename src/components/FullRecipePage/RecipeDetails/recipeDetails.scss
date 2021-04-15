@@ -1,4 +1,8 @@
 .recipe-details-container{
     border: solid black 0.5px;
-    width: 30%;
+    width: 25%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
