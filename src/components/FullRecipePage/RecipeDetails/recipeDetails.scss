@@ -1,8 +1,72 @@
-.recipe-details-container{
-    border: solid black 0.5px;
+.recipe-details-container {
     width: 25%;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     background-color: white;
+    padding: 15px;
+}
+
+.r-details-image {
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+.r-details-ingredients-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.r-details-ingredients-list-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.r-details-ingredients-list-servings {
+    display: flex;
+    justify-content: space-between;
+}
+.r-details-ingredients-list-servings-size {
+    display: flex;
+    background-color: $backgroundGrey;
+}
+.r-details-ingredients-list-servings-size-less {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.r-details-ingredients-list-servings-size-total {
+    font-size: 0.8rem;
+    padding: 8px;
+}
+
+.r-d-i-l-minus {
+    border: solid #cacaca 0.5px;
+}
+.r-d-i-l-plus {
+    background-color: $defaultGreen;
+    color: white;
+}
+
+.r-details-ingredients-list-servings-type {
+    select {
+        padding: 5px;
+        background-color: #00c96d;
+        color: white;
+        border: none;
+        width: 85px;
+        height: 31px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:focus{
+            outline: none;
+        }
+    }
 }
