@@ -4,6 +4,7 @@ import Logout from "@material-ui/icons/ExitToApp";
 import Account from "@material-ui/icons/AccountCircle";
 import MenuIcon from '@material-ui/icons/Menu';
 import Cancel from '@material-ui/icons/Cancel';
+import BuildIcon from '@material-ui/icons/Build';
 
 import { connect } from "react-redux";
 import {toggleSideBar} from '../../actions'
@@ -36,6 +37,10 @@ function SideBar(props) {
             <div className="menu-option">
               <MenuBook className="menu-icon" />
               <div className="menu-name">Search Recipe</div>
+            </div>
+            <div className="menu-option">
+              <BuildIcon className="menu-icon" />
+              <div className="menu-name">Build Your Own</div>
             </div>
             <div className="menu-option">
               <MyRecipe className="menu-icon" />
