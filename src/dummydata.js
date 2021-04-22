@@ -14,7 +14,7 @@ let recipes = [
             "The second step is to marianate the chicken with the spices you prepared. Add 7g of salt with a few tbsp of sugar.",
             "Finally combine everything and throw it in the rice cooker for 35 minutes."
         ],
-        image: '/images/recipeImages/t_recipe.png'
+        image: '/images/t_recipe.png'
     }
 ]
 

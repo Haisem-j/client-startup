@@ -7,8 +7,10 @@ import Cancel from '@material-ui/icons/Cancel';
 import BuildIcon from '@material-ui/icons/Build';
 
 import { connect } from "react-redux";
-import {toggleSideBar} from '../../actions'
+import {toggleSideBar} from '../../redux/actions'
 import { useState } from "react";
+
+import { images } from '../../assets/index.js'
 
 function SideBar(props) {
   const [collapsed, setCollapse] = useState(false);
@@ -23,7 +25,7 @@ function SideBar(props) {
     return (
       <section className="sidebar-container">
         <div className="sidebar-logo">
-          <img src="/images/navbar/logo1.png" alt="logo"/>
+          <img src={images.SideBar.logo} alt="logo"/>
           <span>YUMMY RECIPES</span>
           <Cancel className="sidebar-logo-close" onClick={handleCollapse}/>
 
@@ -58,7 +60,7 @@ function SideBar(props) {
         </div>
         <img
           className="sidebar-bottom-pic"
-          src="/images/navbar/sidebar-pic.png"
+          src={images.SideBar.sidebar_pic}
           alt="sidebar pic"
         />
       </section>

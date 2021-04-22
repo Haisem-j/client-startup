@@ -1,9 +1,11 @@
-import "./sass/main.scss";
+import { Switch, Route, Redirect } from "react-router-dom";
+
 import SideBar from "./components/SideBar/index.jsx";
 import ContentContainerSearch from './components/SearchPage/ContentContainer'
 import ContentContainer from "./components/FullRecipePage/ContentContainer";
 
-import { Switch, Route, Redirect } from "react-router-dom";
+import "./sass/main.scss";
+
 
 function App() {
   return (

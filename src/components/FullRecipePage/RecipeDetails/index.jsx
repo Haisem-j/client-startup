@@ -2,7 +2,7 @@ function RecipeDetails() {
   return (
     <div className="recipe-details-container">
       <div className="r-details-image">
-        <img src="/images/recipeImages/t_recipe.png" alt="main recipe" />
+        <img src="/images/t_recipe.png" alt="main recipe" />
       </div>
       <div className="r-details-ingredients-list">
         <div className="r-details-ingredients-list-title">Ingredients</div>
@@ -22,74 +22,14 @@ function RecipeDetails() {
         <div className="r-details-ingredients-ing-list">
           <div className="r-details-ing">
             <div className="r-detail-ing-name-check">
-            <div className="r-detail-ing-check">✓</div>
-            <div className="r-detail-ing-name">
-              rolled oats
-            </div>
-              
-            </div>
-            <div className="r-detail-ing-amount">45g</div>
-          </div>
-          <div className="r-details-ing">
-            <div className="r-detail-ing-name-check">
-            <div className="r-detail-ing-check">✓</div>
-            <div className="r-detail-ing-name">
-              rolled oats
-            </div>
-              
+              <div className="r-detail-ing-check">✓</div>
+              <div className="r-detail-ing-name">
+                rolled oats
+              </div>
             </div>
             <div className="r-detail-ing-amount">45g</div>
           </div>
-          <div className="r-details-ing">
-            <div className="r-detail-ing-name-check">
-            <div className="r-detail-ing-check">✓</div>
-            <div className="r-detail-ing-name">
-              rolled oats
-            </div>
-              
-            </div>
-            <div className="r-detail-ing-amount">45g</div>
-          </div>
-          <div className="r-details-ing">
-            <div className="r-detail-ing-name-check">
-            <div className="r-detail-ing-check">✓</div>
-            <div className="r-detail-ing-name">
-              rolled oats
-            </div>
-              
-            </div>
-            <div className="r-detail-ing-amount">45g</div>
-          </div>
-          <div className="r-details-ing">
-            <div className="r-detail-ing-name-check">
-            <div className="r-detail-ing-check">✓</div>
-            <div className="r-detail-ing-name">
-              rolled oats
-            </div>
-              
-            </div>
-            <div className="r-detail-ing-amount">45g</div>
-          </div>
-          <div className="r-details-ing">
-            <div className="r-detail-ing-name-check">
-            <div className="r-detail-ing-check">✓</div>
-            <div className="r-detail-ing-name">
-              rolled oats
-            </div>
-              
-            </div>
-            <div className="r-detail-ing-amount">45g</div>
-          </div>
-          <div className="r-details-ing">
-            <div className="r-detail-ing-name-check">
-            <div className="r-detail-ing-check">✓</div>
-            <div className="r-detail-ing-name">
-              rolled oats
-            </div>
-              
-            </div>
-            <div className="r-detail-ing-amount">45g</div>
-          </div>
+          
         </div>
       </div>
       <div className="r-details-nutrition-facts">

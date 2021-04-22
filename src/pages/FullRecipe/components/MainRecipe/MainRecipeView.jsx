@@ -1,18 +1,17 @@
-import recipes from "../../../dummydata";
-import { images } from "../../../assets/index";
-function MainRecipe() {
+import { images } from "../../../../assets/index";
+
+const MainRecipeView = ({ recipes }) => {
   const renderInstructions = () => {
     return recipes[0].instructions.map((step, index) => {
       return (
         <div className="m-recipe-steps-details">
           <div className="m-recipe-steps-details-step-number">0{index + 1}</div>
-          <div className="m-recipe-steps-details-step">
-            {step}
-          </div>
+          <div className="m-recipe-steps-details-step">{step}</div>
         </div>
       );
     });
   };
+
   return (
     <div className="main-recipe-container">
       <div className="m-recipe-container-details">
@@ -59,6 +58,6 @@ function MainRecipe() {
       </div>
     </div>
   );
-}
+};
 
-export default MainRecipe;
+export default MainRecipeView;

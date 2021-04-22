@@ -1,0 +1,1 @@
+export {FullRecipeContainer as default} from './FullRecipeContainer'
