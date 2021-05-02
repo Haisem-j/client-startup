@@ -6,7 +6,7 @@ import ContentContainer from "./components/FullRecipePage/ContentContainer";
 
 import "./sass/main.scss";
 
-
+//
 function App() {
   return (
     <div className="App">
